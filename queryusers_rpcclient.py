@@ -87,7 +87,7 @@ try :
     out_command = subprocess.getoutput([command])
     cprint(out_command, 'green', attrs=['bold'])
     if log == True:
-        outputfile.write(command + "\n" + out_command + "\n")
+        outputfile.write("\n" + command + "\n" + out_command + "\n")
 
     command = 'rpcclient -U "" -N ' + ipaddress + ' -c enumdomusers'
     cprint("\n" + messagebox + command + "\n", 'magenta', attrs=['bold'])
@@ -122,7 +122,9 @@ try :
 
             if log == True:
                 outputfile.write("\n" + command + "\n" + out_command + "\n")
-                outputfile.close()
+                
+    if log == True:
+        outputfile.close()
 
 except :
     cprint("\n[!] Error\n", 'red', attrs=['bold'], file=stderr)
