@@ -31,7 +31,7 @@ log = False
 
 def usage():
     cprint(banner, 'cyan', attrs=['bold'], file=stderr)
-    cprint("Usage: queryusers_rpcclient.py -u <URL>\n", 'red', attrs=['bold'], file=stderr)
+    cprint("Usage: queryusers_rpcclient.py -i <IP>\n", 'red', attrs=['bold'], file=stderr)
     cprint("Arguments:\n", 'red', attrs=['bold'], file=stderr)
     cprint("-h --help			-print this help", 'red', attrs=['bold'], file=stderr)
     cprint("-i --ip			    -You need to add one host", 'red', attrs=['bold'], file=stderr)
