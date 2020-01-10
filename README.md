@@ -1,4 +1,4 @@
-# queryusers_rpcclient
+# queryusers_rpcclient.py
 
 Advanced enumeration rpcclient.
 
