@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 #
+# https://github.com/g0h4n/queryusers_rpcclient
 # yay termcolor
 # check you have rpcclient tools
 # ;)
@@ -23,6 +24,7 @@ banner = '''
        |_| query all users found.                                     
 
 by g0h4n
+https://github.com/g0h4n/queryusers_rpcclient
 
 '''
 messagebox = "[+] command execute : "
